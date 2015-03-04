@@ -1,6 +1,6 @@
 {
   "name": "expressDemo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,5 +13,18 @@
     "express": "~4.12.0",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "description": "This is project is a demo project to show Express.js functionality",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZH-COMP231S63G5/expressDemo.git"
+  },
+  "author": "ZHX HU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZH-COMP231S63G5/expressDemo/issues"
+  },
+  "homepage": "https://github.com/ZH-COMP231S63G5/expressDemo"
 }
