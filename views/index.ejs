@@ -7,20 +7,10 @@
   </head>
   <body>
   
-  <div class="content container">
+<% include header.ejs %>
+<% include content.ejs %>
+<% include footer.ejs %>
    
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %>, <%= name%></p>
-    
-    <ul>
-        <% for (index=1;index<=4;index++) { %>
-        <li> Item <%= index %></li>
-        <% } %>
-    </ul>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate molestias laudantium, quidem voluptatibus, ab expedita voluptatem nesciunt officia porro nam explicabo corrupti aperiam vero voluptates dolorem ad libero eum inventore tenetur beatae reprehenderit quas obcaecati molestiae a! Laborum tempora iste, alias explicabo repellendus saepe dicta? Ducimus, repellendus! Maxime, repellendus, in.</p>
-    
-    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="javascripts/jquery-1.11.2.min.js"></script>    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
