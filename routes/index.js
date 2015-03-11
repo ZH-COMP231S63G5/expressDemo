@@ -9,4 +9,13 @@ router.get('/', function(req, res, next) {
                       });
 });
 
+
+/* GET contact page. */
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Contact Me',
+                       name : 'ZhX Hu',
+                       firstHeadLine : 'Please enter your information'
+                      });
+});
+
 module.exports = router;
